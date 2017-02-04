@@ -1,2 +1,19 @@
 ﻿body {
 }
+
+/*NAVBAR*/
+.navbar-header {
+    position:absolute;
+    top:0;
+    left:0;
+}
+#navbar {
+    position:absolute;
+    left:50%;
+    margin-left:-107px; /*width = 214, adjusted so center of box is in center of navbar*/
+}
+.navbar-footer {
+    position:absolute;
+    top:0;
+    right:0;
+}
