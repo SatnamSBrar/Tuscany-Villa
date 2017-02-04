@@ -1,4 +1,6 @@
 ﻿body {
+    margin-right:auto;
+    margin-left:auto;
 }
 
 /*NAVBAR*/
@@ -16,4 +18,28 @@
     position:absolute;
     top:0;
     right:0;
+}
+/*GRID SECTIONS*/
+.mainSec .container {
+    padding:0;
+    height:inherit;
+    text-align:center;
+}
+.largeSec {
+    padding:0;
+    text-align:center;
+}
+.smallSec {
+    padding:0;
+    text-align:center;
+}
+.img-responsive {
+    height:inherit;
+}
+.Sec .container {
+    padding:0;
+    vertical-align:middle;
+}
+.Box {
+    padding:0;
 }
