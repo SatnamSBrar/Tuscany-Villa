@@ -20,26 +20,177 @@
     right:0;
 }
 /*GRID SECTIONS*/
-.grid {
-
-}
 .mainSec .container {
     padding:0;
     height:inherit;
 }
+/*LARGE SECTION*/
 .largeSec {
     padding:0;
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    min-height:500px;
 }
+.popText {
+    vertical-align: middle;
+    float: none;
+    padding:1px;
+    color: white;
+    text-align:center;
+    background-color: rgba(43,40,40,0.75);
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:4px;
+}
+.largeSec .arrow {
+    text-align:right;
+    min-width:75px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:40px;
+}
+.largeSec .arrow .fa {
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+    text-align:right;
+    font-style:normal;
+    font-weight:bold;
+    font-stretch:extra-expanded;
+    background-color:aqua;
+}
+/*SMALL SECTION*/
 .smallSec {
-    padding:0;
+    padding: 0;
+    background-image: url('images/Versilia.jpg');
+    min-height:500px;
 }
-.img-responsive {
-    height:inherit;
-}
-.Sec .container {
-    padding:0;
+.smallSec .popText {
+    padding:1px;
     vertical-align:middle;
+    float:none;
+    text-align:center;
+    background-color: rgba(255, 255, 255,0.75);
+    color:rgb(43,40,40);
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:4px;
 }
+.smallSec .search {
+    text-align:right;
+    min-width:75px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:40px;
+}
+.smallSec .search .fa {
+    color:white;
+    padding-right:20px;
+    padding-left:20px;
+    text-align:right;
+    font-style:normal;
+    font-stretch:extra-expanded;
+    background-color:aqua;
+}
+/*THUMBNAILS*/
 .Box {
     padding:0;
+    height:348px;
+    max-width:348px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.Box .popText {
+    vertical-align: middle;
+    float: none;
+    padding:1px;
+    color: white;
+    text-align:center;
+    background-color: rgba(43,40,40,0.75);
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:4px;
+}
+.Box .bodyText {
+    background-image: url('images/img-thing.jpg');
+    padding: 1px;
+    vertical-align: middle;
+    color: rgb(43,40,40);
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:250px;
+}
+.Box .bodyText .blue {
+    text-align:left;
+    padding-left: 30px;
+}
+.Box .bodyText.blueBack {
+    background-image:none;
+    background-color:aqua;
+}
+.blueBack p {
+    padding:0;
+}
+.btn-default {
+    background-image:none;
+    color:rgba(43,40,40,0.75);
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    display:block;
+}
+.btn-default.blueBack {
+    background-color:aqua;
+    text-shadow:none;
+}
+.smallFont {
+    font-size:18px;
+    font-weight:bold;
+}
+p.smallFont {
+    max-height:19px;
+}
+.largeFont {
+    font-size:40px;
+    font-weight:bold;
+}
+p.largeFont {
+    max-height:41px;
+}
+.row1col2 {
+    background-image: url('images/314-348x348.jpg');
+}
+.row1col3 {
+    background-image: url('images/42-348x348.jpg');
+}
+.row1col4 {
+    background-image: url('images/3b-348x348.jpg');
+}
+.row2col1 {
+    background-image: url('images/Villa-Rucellai-Toscani-2750-2-348x348.jpg');
+}
+.row2col2 {
+    background-image: url('images/img-thing.jpg');
+}
+.row2col3 {
+    background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+}
+.row2col4 {
+    background-image: url('images/img-thing.jpg');
+}
+.row3col1 {
+    background-image: url('images/img-thing.jpg');
+}
+.row3col2 {
+    background-image: url('images/Villa-Vanna-231-348x348.jpg');
+}
+.row3col3 {
+    background-color:aqua;
+}
+.row3col4 {
+    background-image: url('images/box_partners.png');
 }
