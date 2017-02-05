@@ -7,13 +7,17 @@
     margin-left:auto;
     margin-right:auto;
     text-align:center;
+    background-color:rgba(43,40,40,0.25);
 }
 .jumbotron .header {
     padding:0;
+    font-family:Helvetica;
+    color:rgba(43,40,40,0.75);
 }
 .jumbotron .subheader {
     padding:0;
     font-family:'Segoe Script';
+    color:rgb(43,40,40);
 }
 /*NAVBAR*/
 .navbar-header {
