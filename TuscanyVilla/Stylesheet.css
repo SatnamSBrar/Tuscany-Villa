@@ -225,5 +225,6 @@ p.largeFont {
     height:100px;
     width:100%;
     background-color:rgba(43,40,40,0.25);
-    color:rgba(43,40,40,0.75)
+    color:rgb(43,40,40);
+    font-size:x-small;
 }
