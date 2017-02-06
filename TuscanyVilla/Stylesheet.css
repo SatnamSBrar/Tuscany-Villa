@@ -26,6 +26,7 @@
     top:0;
     left:0;
     min-width:100px;
+    font-size:smaller;
 }
 .navbar-header .navbar-brand {
     color:white;
@@ -124,7 +125,7 @@
 .Box {
     padding:0;
     height:348px;
-    max-width:348px;
+    max-width:100%;
     margin-left:auto;
     margin-right:auto;
 }
@@ -221,6 +222,7 @@ p.largeFont {
 .row3col4 {
     background-image: url('images/box_partners.png');
 }
+/*FOOTER*/
 .panel-footer {
     height:100px;
     width:100%;
