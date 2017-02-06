@@ -48,7 +48,7 @@
     color:white;
 }
 /*GRID SECTIONS*/
-.mainSec .container {
+.mainSec .container-fluid {
     padding:0;
     height:inherit;
 }
@@ -56,6 +56,8 @@
 .largeSec {
     padding:0;
     background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
     min-height:500px;
 }
 .popText {
@@ -91,6 +93,8 @@
 .smallSec {
     padding: 0;
     background-image: url('images/Versilia.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
     min-height:500px;
 }
 .smallSec .popText {
@@ -137,6 +141,7 @@
     text-align:center;
     background-color: rgba(43,40,40,0.75);
     max-width: 200px;
+    max-height:100px;
     margin-left: auto;
     margin-right: auto;
     border-radius:4px;
@@ -191,36 +196,60 @@ p.largeFont {
 }
 .row1col2 {
     background-image: url('images/314-348x348.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row1col3 {
     background-image: url('images/42-348x348.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row1col4 {
     background-image: url('images/3b-348x348.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row2col1 {
     background-image: url('images/Villa-Rucellai-Toscani-2750-2-348x348.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row2col2 {
     background-image: url('images/img-thing.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row2col3 {
     background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row2col4 {
     background-image: url('images/img-thing.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row3col1 {
     background-image: url('images/img-thing.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row3col2 {
     background-image: url('images/Villa-Vanna-231-348x348.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row3col3 {
     background-color:rgb(104,210,189);
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .row3col4 {
     background-image: url('images/box_partners.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    margin-left:auto;
+    margin-right:auto;
 }
 /*FOOTER*/
 .panel-footer {
